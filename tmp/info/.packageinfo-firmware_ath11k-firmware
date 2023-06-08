@@ -1,0 +1,57 @@
+Source-Makefile: package/firmware/ath11k-firmware/Makefile
+
+Package: ath11k-firmware-ipq6018
+Version: 2022-11-25-9f285fbc1f7040d0ca6480926d1922b479e2d839-0
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath11k firmware for IPQ6018 devices
+Maintainer: Robert Marko <robimarko@gmail.com>
+Source: ath11k-firmware-2022-11-25-9f285fbc1f7040d0ca6480926d1922b479e2d839.tar.xz
+Type: ipkg
+Description: ath11k firmware for IPQ6018 devices
+https://github.com/kvalo/ath11k-firmware.git
+Robert Marko <robimarko@gmail.com>
+@@
+
+Package: ath11k-firmware-ipq8074
+Version: 2022-11-25-9f285fbc1f7040d0ca6480926d1922b479e2d839-0
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath11k firmware for IPQ8074 devices
+Maintainer: Robert Marko <robimarko@gmail.com>
+Source: ath11k-firmware-2022-11-25-9f285fbc1f7040d0ca6480926d1922b479e2d839.tar.xz
+Type: ipkg
+Description: ath11k firmware for IPQ8074 devices
+https://github.com/kvalo/ath11k-firmware.git
+Robert Marko <robimarko@gmail.com>
+@@
+
+Package: ath11k-firmware-qcn9074
+Version: 2022-11-25-9f285fbc1f7040d0ca6480926d1922b479e2d839-0
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: ath11k firmware for QCN9074 devices
+Maintainer: Robert Marko <robimarko@gmail.com>
+Source: ath11k-firmware-2022-11-25-9f285fbc1f7040d0ca6480926d1922b479e2d839.tar.xz
+Type: ipkg
+Description: ath11k firmware for QCN9074 devices
+https://github.com/kvalo/ath11k-firmware.git
+Robert Marko <robimarko@gmail.com>
+@@
+
+
